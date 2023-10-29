@@ -18,7 +18,7 @@ function Comentario() {
      <ComentContainer placeholder="Escreva aqui seu comentário">
      </ComentContainer>
      <ConfirmButton>
-      <Link to="/home"><img src={ConfirmImage}/></Link>
+      <Link to="/"><img src={ConfirmImage}/></Link>
      </ConfirmButton>
     </FooterCard>
     </Card>
