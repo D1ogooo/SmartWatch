@@ -5,7 +5,7 @@ import Comentario from './SecondApp'
 
 export const routes = createBrowserRouter([
   {
-   path: '/home',
+   path: '/',
    element: <HomePage />
   },
   {
