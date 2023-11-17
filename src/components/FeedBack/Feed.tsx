@@ -7,7 +7,7 @@ function FeedContainer() {
   const [star, setStar] = useState(false)
 
   const handleclick: React.MouseEventHandler<HTMLImageElement> = () => {
-    firSetstar(!firststar)
+    setStar(!star)
   }
 
   return (
