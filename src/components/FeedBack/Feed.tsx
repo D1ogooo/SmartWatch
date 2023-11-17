@@ -4,11 +4,7 @@ import StarCheio from '../../assets/react.svg'
 import { useState } from 'react'
 
 function FeedContainer() {
-  const [firststar, firSetstar] = useState(false)
-  const [secondstar, secondSetstar] = useState(false)
-  const [thirdstar, thirdSetstar] = useState(false)
-  const [forstar, forSetstar] = useState(false)
-  const [fivestar, fiveSetstar] = useState(false)
+  const [star, setStar] = useState(false)
 
   const handleclick: React.MouseEventHandler<HTMLImageElement> = () => {
     firSetstar(!firststar)
