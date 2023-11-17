@@ -13,18 +13,7 @@ function FeedContainer() {
   const handleclick: React.MouseEventHandler<HTMLImageElement> = () => {
     firSetstar(!firststar)
   }
-  const secondhandleclick: React.MouseEventHandler<HTMLImageElement> = () => {
-    secondSetstar(!secondstar)
-  }
-  const thirdhandleclick: React.MouseEventHandler<HTMLImageElement> = () => {
-    thirdSetstar(!thirdstar)
-  }
-  const forhandleclick: React.MouseEventHandler<HTMLImageElement> = () => {
-    forSetstar(!forstar)
-  }
-  const fivehandleclick: React.MouseEventHandler<HTMLImageElement> = () => {
-    fiveSetstar(!fivestar)
-  }
+  const secondhandleclick: 
 
   return (
   <>
