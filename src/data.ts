@@ -19,9 +19,9 @@ export const StarsInfo:typstar[] = [
  {
   _id:3,
   mark: false,
- }
+ },
  {
   _id:4,
   mark: false,
- }
+ },
 ]
